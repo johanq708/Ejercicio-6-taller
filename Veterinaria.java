@@ -24,12 +24,8 @@ public class Veterinaria {
         mv.remove(m);
     }
     
-    public void mostrarmascotaportipo(){
-        for (int i=0;i<mv.size();i++){
-            System.out.println(mv.get(i));
-        }
-    }
     public void mostrarmascotas(){
+        System.out.println("Todas las macostas de la veterinaria son:");
         for(int i=0;i<mv.size();i++){
             System.out.println(mv.get(i));
         }
