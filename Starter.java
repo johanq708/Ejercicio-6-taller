@@ -29,6 +29,7 @@ public class Starter {
         v1.adicionarmascota(tom);
         p1.mostarmascota();
         p2.mostarmascota();
+        v1.mostrarmascotas();
     }
     
 }
