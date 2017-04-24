@@ -15,7 +15,8 @@ public class Starter {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Veterinaria v1=new Veterinaria();
+        Veterinaria v1 = null;
+        manageVet(v1);
         Persona p1=new Persona("juan",1001001);
         Persona p2=new Persona("andrea", 2002002);
         Perro pepe=new Perro("golden",1,"pepe","dorado");
@@ -30,6 +31,9 @@ public class Starter {
         p1.mostarmascota();
         p2.mostarmascota();
         v1.mostrarmascotas();
+    }
+    public static void manageVet(Veterinaria v){
+        v=new Veterinaria();
     }
     
 }
